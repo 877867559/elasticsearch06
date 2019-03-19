@@ -1,0 +1,8 @@
+{
+    span_first : {
+        match : {
+            span_term : { age : 34 }
+        },
+        end : 12
+    }
+}
