@@ -2,69 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fb18dc4-9d89-475d-8074-483dc35e0e7f" name="Default" comment="添加test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/index/engine/SimpleEngineBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/index/store/SimpleStoreBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/micro/deps/jackson/JacksonTypesBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/micro/deps/jackson/test1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/monitor/memory/SimpleMemoryMonitorBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/util/lucene/versioned/VersionedMapBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/uuid/SimpleUuidBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/AbstractNodesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/aliases/IndexAliasesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/aliases/IndexAliasesTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/broadcast/BroadcastActionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/broadcast/BroadcastActionsTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/ClientTransportTwoServersSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/ClientTransportTwoServersSearchTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/DiscoveryTransportClientTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/DiscoveryTransportClientTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/TransportClientDocumentActionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/TransportClientDocumentActionsTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/TransportClientMoreLikeThisActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/TransportClientMoreLikeThisActionTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/datanode/SimpleDataNodesTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/datanode/SimpleDataNodesTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/AliasedIndexDocumentActionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/AliasedIndexDocumentActionsTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/DocumentActionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/DocumentActionsTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/LocalDocumentActionsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/LocalDocumentActionsTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/MoreLikeThisActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/MoreLikeThisActionTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/AbstractSimpleIndexGatewayTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/FsMetaDataGatewayTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/FsMetaDataGatewayTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/SimpleFsIndexGatewayTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/SimpleFsIndexGatewayTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/SimpleFsIndexInRamIndexGatewayTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/SimpleFsIndexInRamIndexGatewayTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/indexlifecycle/IndexLifecycleActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/indexlifecycle/IndexLifecycleActionTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/nodesinfo/SimpleNodesInfoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/ping/PingActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/ping/PingActionTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/recovery/SimpleRecoveryTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/recovery/SimpleRecoveryTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/SingleInstanceEmbeddedSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/SingleInstanceEmbeddedSearchTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TransportSearchFailuresTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TransportSearchFailuresTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TransportTwoServersSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TransportTwoServersSearchTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TwoInstanceEmbeddedSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TwoInstanceEmbeddedSearchTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TwoInstanceUnbalancedShardsEmbeddedSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TwoInstanceUnbalancedShardsEmbeddedSearchTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/highlight/HighlightSearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/highlight/HighlightSearchTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/terms/ClientTransportTermsActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/terms/ClientTransportTermsActionTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/terms/TermsActionTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/terms/TermsActionTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logging.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/elasticsearch/node/internal/InternalNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/elasticsearch/node/internal/InternalNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/my/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/my/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/micro/deps/jackson/JacksonTypesBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/micro/deps/jackson/JacksonTypesBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/my/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/my/test.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,28 +18,110 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/my/test.java">
+    <leaf>
+      <file leaf-file-name="Store.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/store/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <state relative-caret-position="325">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="22" />
               <folding>
-                <element signature="e#79#80#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="TByteByteProcedure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/TByteByteProcedure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="TByteDoubleHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/TByteDoubleHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Decorators.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/Decorators.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="466" column="32" selection-start-line="466" selection-start-column="28" selection-end-line="466" selection-end-column="32" />
+              <folding>
+                <element signature="e#7133#7134#0" expanded="true" />
+                <element signature="e#7191#7192#0" expanded="true" />
+                <element signature="e#7383#7384#0" expanded="true" />
+                <element signature="e#7442#7443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TLongShortHashMap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/TLongShortHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TLongShortHashMapDecorator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/decorator/TLongShortHashMapDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleFsStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/store/fs/SimpleFsStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwitchDirectory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/lucene/store/SwitchDirectory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="144" column="31" lean-forward="true" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Directories.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/lucene/Directories.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FsIndexShardGateway.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/gateway/fs/FsIndexShardGateway.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1050">
+              <caret line="309" column="24" selection-start-line="309" selection-start-column="24" selection-end-line="309" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -114,6 +138,14 @@
       <find>import org.testng.annotations.Test</find>
       <find>import org.testng.annotations.AfterClass;</find>
       <find>import org.testng.annotations.BeforeClass;</find>
+      <find>iterations</find>
+      <find>org.apache.lucene.document.Document</find>
+      <find>Guice.createInjector</find>
+      <find>Builder</find>
+      <find>shardOperation</find>
+      <find>executeBulk</find>
+      <find>shardOperationOnPrimary</find>
+      <find>store</find>
     </findStrings>
     <replaceStrings>
       <replace>import org.junit.Test</replace>
@@ -139,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/my/test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/util/io/streams/BytesStreamsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/util/guice/InjectorsTests.java" />
@@ -185,6 +216,10 @@
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/MoreLikeThisActionTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/datanode/SimpleDataNodesTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/DiscoveryTransportClientTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/index/mapper/MapperService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/elasticsearch/benchmark/micro/deps/jackson/JacksonTypesBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/elasticsearch/node/internal/InternalNode.java" />
       </list>
     </option>
   </component>
@@ -220,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,6 +287,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,7 +304,181 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="merge" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="merge" type="462c0819:PsiDirectoryNode" />
+              <item name="policy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="merge" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="translog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="translog" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="trove" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
@@ -284,7 +502,83 @@
             </path>
             <path>
               <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="memory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch06" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-core:3.0.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-core:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-core-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-core:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-core-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-core:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-core-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elasticsearch06" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.lucene:lucene-core:3.0.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="lucene-core-3.0.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,16 +586,16 @@
       </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="ResourceBundle&#9;PSI&#9;JAVA://java.util.ResourceBundle" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -323,7 +617,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BroadcastActionsTests.testBroadcastOperations">
+    <configuration name="JacksonTypesBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.elasticsearch.benchmark.micro.deps.jackson.JacksonTypesBenchmark" />
+      <module name="elasticsearch06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.elasticsearch.benchmark.micro.deps.jackson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -337,6 +642,75 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="AnalysisModuleTests.testSimpleConfigurationJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.elasticsearch.index.analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.elasticsearch.index.analysis" />
+      <option name="MAIN_CLASS_NAME" value="org.elasticsearch.index.analysis.AnalysisModuleTests" />
+      <option name="METHOD_NAME" value="testSimpleConfigurationJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BroadcastActionsTests.testBroadcastOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.elasticsearch.test.integration.broadcast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.elasticsearch.test.integration.broadcast" />
+      <option name="MAIN_CLASS_NAME" value="org.elasticsearch.test.integration.broadcast.BroadcastActionsTests" />
+      <option name="METHOD_NAME" value="testBroadcastOperations" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SimpleIndexShardTests.testSimpleIndexGetDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticsearch06" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.elasticsearch.index.shard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.elasticsearch.index.shard" />
+      <option name="MAIN_CLASS_NAME" value="org.elasticsearch.index.shard.SimpleIndexShardTests" />
+      <option name="METHOD_NAME" value="testSimpleIndexGetDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -376,9 +750,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Application.JacksonTypesBenchmark" />
+      <item itemvalue="JUnit.SimpleIndexShardTests.testSimpleIndexGetDelete" />
+      <item itemvalue="JUnit.AnalysisModuleTests.testSimpleConfigurationJson" />
+      <item itemvalue="JUnit.BroadcastActionsTests.testBroadcastOperations" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BroadcastActionsTests.testBroadcastOperations" />
         <item itemvalue="Application.test" />
+        <item itemvalue="JUnit.AnalysisModuleTests.testSimpleConfigurationJson" />
+        <item itemvalue="Application.JacksonTypesBenchmark" />
+        <item itemvalue="JUnit.SimpleIndexShardTests.testSimpleIndexGetDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -401,12 +786,41 @@
       <updated>1552979937076</updated>
       <workItem from="1552979938963" duration="1581000" />
       <workItem from="1552990364073" duration="591000" />
-      <workItem from="1553044001135" duration="2489000" />
+      <workItem from="1553044001135" duration="2605000" />
+      <workItem from="1553050854446" duration="28750000" />
     </task>
+    <task id="LOCAL-00001" summary="添加test">
+      <created>1553047718311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553047718311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleIndexShardTests_testSimpleIndexGetDelete - 2019.03.20 at 13h 43m 13s.xml">
+      <configuration name="SimpleIndexShardTests.testSimpleIndexGetDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleIndexShardTests_testSimpleIndexGetDelete - 2019.03.20 at 13h 46m 49s.xml">
+      <configuration name="SimpleIndexShardTests.testSimpleIndexGetDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleIndexShardTests_testSimpleIndexGetDelete - 2019.03.20 at 13h 50m 30s.xml">
+      <configuration name="SimpleIndexShardTests.testSimpleIndexGetDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleIndexShardTests_testSimpleIndexGetDelete - 2019.03.20 at 13h 54m 18s.xml">
+      <configuration name="SimpleIndexShardTests.testSimpleIndexGetDelete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnalysisModuleTests_testSimpleConfigurationJson - 2019.03.20 at 15h 29m 47s.xml">
+      <configuration name="AnalysisModuleTests.testSimpleConfigurationJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BroadcastActionsTests_testBroadcastOperations - 2019.03.21 at 11h 16m 34s.xml">
+      <configuration name="BroadcastActionsTests.testBroadcastOperations" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4661000" />
+    <option name="totallyTimeSpent" value="33527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -420,19 +834,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32791728" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32791728" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49926144" visible="true" weight="0.25938338" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50073856" side_tool="true" weight="0.25938338" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44017726" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,11 +858,11 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890856" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32791728" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49926144" visible="true" weight="0.25938338" />
+      <window_info id="Structure" order="1" sideWeight="0.50073856" side_tool="true" weight="0.25938338" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -463,10 +877,10 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2658789" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.6026588" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.6026588" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -477,362 +891,445 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加test" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/elasticsearch/node/internal/InternalNode.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/TransportActionModule.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/TransportActionModule.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="this.getSource()" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/index/mapper/json/multifield/merge/JavaMultiFieldMergeTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/cluster/service/InternalClusterService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="-1133">
+          <caret line="130" column="16" selection-start-line="130" selection-start-column="16" selection-end-line="130" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/index/mapper/json/multifield/JsonMultiFieldTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/cluster/metadata/MetaDataService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="1059">
+          <caret line="234" column="28" selection-start-line="234" selection-start-column="16" selection-end-line="234" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/util/json/JsonBuilderTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/util/lucene/search/MoreLikeThisQueryTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/util/lucene/all/SimpleAllTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/deps/lucene/VectorHighlighterTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/index/mapper/json/merge/test1/Test1MergeMapperTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/deps/lucene/LuceneFieldCacheTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logging.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/search/Scroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/discovery/Discovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/discovery/jgroups/JgroupsDiscovery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="131" column="26" selection-start-line="131" selection-start-column="26" selection-end-line="131" selection-end-column="26" />
-          <folding>
-            <element signature="e#5572#5573#0" expanded="true" />
-            <element signature="e#5623#5624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/gateway/fs/FsGateway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/src/test/java/org/elasticsearch/test/integration/client/transport/DiscoveryTransportClientTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/src/test/java/org/elasticsearch/test/integration/broadcast/BroadcastActionsTests.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/integration/src/test/java/org/elasticsearch/test/integration/broadcast/BroadcastActionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="52" column="29" lean-forward="true" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/VersionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/util/concurrent/BlockingThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/aliases/IndexAliasesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/aliases/IndexAliasesTests.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/broadcast/BroadcastActionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/ClientTransportTwoServersSearchTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/TransportClientDocumentActionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/TransportClientMoreLikeThisActionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/AliasedIndexDocumentActionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/AliasedIndexDocumentActionsTests.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/LocalDocumentActionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/SimpleFsIndexGatewayTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/SimpleFsIndexInRamIndexGatewayTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/terms/ClientTransportTermsActionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/AbstractNodesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TwoInstanceEmbeddedSearchTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="106" column="10" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TwoInstanceUnbalancedShardsEmbeddedSearchTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="112" column="10" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/SingleInstanceEmbeddedSearchTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/admin/indices/flush/TransportFlushAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+          <caret line="104" column="57" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TransportSearchFailuresTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/index/store/memory/SimpleHeapStoreTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="209">
+          <caret line="100" column="17" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/TransportTwoServersSearchTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/support/master/TransportMasterNodeOperationAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        <state relative-caret-position="275">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/terms/TermsActionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/client/transport/TransportClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="217">
+          <caret line="141" column="19" selection-start-line="141" selection-start-column="19" selection-end-line="141" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/search/highlight/HighlightSearchTests.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/com/google/inject/Inject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/recovery/SimpleRecoveryTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/ping/PingActionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/nodesinfo/SimpleNodesInfoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/indexlifecycle/IndexLifecycleActionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/AbstractSimpleIndexGatewayTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/gateway/fs/FsMetaDataGatewayTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/DocumentActionsTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/document/MoreLikeThisActionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/datanode/SimpleDataNodesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/client/transport/DiscoveryTransportClientTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="50">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/my/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        <state relative-caret-position="150">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/settings/ImmutableSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="331" column="37" selection-start-line="331" selection-start-column="37" selection-end-line="331" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/client/node/NodeIndicesAdminClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-143">
+          <caret line="65" column="62" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/AbstractNodesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="43" />
           <folding>
-            <element signature="e#79#80#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/elasticsearch/test/integration/broadcast/BroadcastActionsTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/node/internal/InternalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/TransportActionModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/com/google/inject/AbstractModule.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1716#1717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/com/google/inject/Key.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+          <folding>
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="e#3678#3679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/com/google/inject/spi/Elements.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="223" column="32" selection-start-line="223" selection-start-column="32" selection-end-line="223" selection-end-column="32" />
+          <folding>
+            <element signature="e#8974#8975#0" expanded="true" />
+            <element signature="e#9029#9030#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/com/google/inject/internal/BindingBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/2.0/guice-2.0.jar!/com/google/inject/internal/AbstractBindingBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/node/NodeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+          <folding>
+            <element signature="e#5070#5071#0" expanded="true" />
+            <element signature="e#5147#5148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/admin/indices/create/TransportCreateIndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/admin/indices/create/CreateIndexRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-758">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/index/IndexRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2441">
+          <caret line="92" column="28" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="28" />
+          <folding>
+            <element signature="e#3052#3053#0" expanded="true" />
+            <element signature="e#3088#3089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/deletebyquery/TransportDeleteByQueryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/support/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/support/replication/TransportShardReplicationOperationAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9387">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/action/index/TransportIndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="137" column="39" lean-forward="true" selection-start-line="137" selection-start-column="39" selection-end-line="137" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/shard/service/IndexShard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/3.0.1/lucene-core-3.0.1.jar!/org/apache/lucene/document/Field.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/mapper/json/JsonFieldMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="269" column="11" lean-forward="true" selection-start-line="269" selection-start-column="11" selection-end-line="269" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/mapper/json/JsonDocumentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="323" column="30" selection-start-line="323" selection-start-column="30" selection-end-line="323" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/mapper/DocumentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/shard/service/InternalIndexShard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/engine/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/3.0.1/lucene-core-3.0.1.jar!/org/apache/lucene/index/IndexWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1417">
+          <caret line="991" column="16" selection-start-line="991" selection-start-column="16" selection-end-line="991" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/engine/robin/RobinEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="283" column="32" selection-start-line="283" selection-start-column="32" selection-end-line="283" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/translog/Translog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/translog/memory/MemoryTranslog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="89" column="38" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/merge/policy/BalancedSegmentMergePolicyProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="44" column="65" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/store/support/AbstractStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/store/fs/AbstractFsStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/store/fs/SimpleFsStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/lucene/store/SwitchDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="144" column="31" lean-forward="true" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/lucene/Directories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="125" column="34" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/gateway/fs/FsIndexShardGateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="309" column="24" selection-start-line="309" selection-start-column="24" selection-end-line="309" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/index/store/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/TByteByteProcedure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/TByteDoubleHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/TLongShortHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/decorator/TLongShortHashMapDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/elasticsearch/util/gnu/trove/Decorators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="466" column="32" selection-start-line="466" selection-start-column="28" selection-end-line="466" selection-end-column="32" />
+          <folding>
+            <element signature="e#7133#7134#0" expanded="true" />
+            <element signature="e#7191#7192#0" expanded="true" />
+            <element signature="e#7383#7384#0" expanded="true" />
+            <element signature="e#7442#7443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

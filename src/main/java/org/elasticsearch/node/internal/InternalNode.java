@@ -66,6 +66,7 @@ import org.elasticsearch.util.component.LifecycleComponent;
 import org.elasticsearch.util.guice.Injectors;
 import org.elasticsearch.util.io.FileSystemUtils;
 import org.elasticsearch.util.logging.Loggers;
+import org.elasticsearch.util.settings.ImmutableSettings;
 import org.elasticsearch.util.settings.Settings;
 import org.elasticsearch.util.settings.SettingsModule;
 import org.slf4j.Logger;
@@ -94,7 +95,7 @@ public final class InternalNode implements Node {
     private final Client client;
 
     public InternalNode() throws ElasticSearchException {
-        this(Builder.EMPTY_SETTINGS, true);
+        this(ImmutableSettings.Builder.EMPTY_SETTINGS, true);
     }
 
     public InternalNode(Settings pSettings, boolean loadConfigSettings) throws ElasticSearchException {

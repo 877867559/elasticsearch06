@@ -30,6 +30,7 @@ import org.elasticsearch.util.io.StringBuilderWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Map;
+import java.util.ResourceBundle;
 
 import static org.elasticsearch.util.json.Jackson.*;
 
@@ -143,7 +144,7 @@ public class JacksonTypesBenchmark {
 
     public static void main(String[] args) throws Exception {
         JacksonTypesBenchmark benchmark = new JacksonTypesBenchmark(
-                Streams.copyToString(new InputStreamReader(JacksonTypesBenchmark.class.getResourceAsStream("/org/elasticsearch/benchmark/micro/deps/jackson/test1.json"))));
+                Streams.copyToString(new InputStreamReader(ClassLoader.getSystemResourceAsStream("test1.json"))));
         benchmark.run();
     }
 }
